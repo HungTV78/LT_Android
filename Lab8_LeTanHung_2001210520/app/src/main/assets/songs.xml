@@ -1,0 +1,26 @@
+<songs>
+    <song>
+        <name>I TOOK A PILL IN IBIZA</name>
+        <singer>My Pasner</singer>
+        <imageResource>hinh1</imageResource>
+        <year>2016</year>
+    </song>
+    <song>
+        <name>7 YEARS</name>
+        <singer>Lukae Grahum</singer>
+        <imageResource>hinh2</imageResource>
+        <year>2016</year>
+    </song>
+    <song>
+        <name>PILLOW TALK</name>
+        <singer>Zaym</singer>
+        <imageResource>hinh3</imageResource>
+        <year>2016</year>
+    </song>
+    <song>
+        <name>WORK FROM HOME</name>
+        <singer>Fish Hamory</singer>
+        <imageResource>hinh5</imageResource>
+        <year>2016</year>
+    </song>
+</songs>

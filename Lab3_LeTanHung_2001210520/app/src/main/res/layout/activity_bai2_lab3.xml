@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Bai2_Lab3">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:text="CompoundButton" />
+
+    <TextView
+        android:text="Chọn giá trị của biểu thức sau:
+Math.abs(Math.min(-6,3))"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radio_a"
+            android:text=" 3"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/radio_b"
+            android:text=" 6"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/radio_c"
+            android:text="-6"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <TextView
+        android:id="@+id/mgs"
+        android:padding="10dp"
+        android:hint="bạn hãy chọn một phương án"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:enabled="false"
+        android:id="@+id/test"
+        android:textSize="30dp"
+        android:text="Kết quả"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

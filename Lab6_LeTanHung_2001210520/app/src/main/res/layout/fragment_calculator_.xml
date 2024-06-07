@@ -1,0 +1,141 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp">
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@color/green"
+            android:gravity="center"
+            android:text="Cộng trừ nhân chia"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_text"
+            android:layout_marginTop="20dp"
+            android:text="Số a"
+            android:textSize="20sp"
+            android:layout_marginStart="20dp"/>
+
+        <EditText
+            android:id="@+id/edt_a"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/textView2"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_below="@id/title_text"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Nhập số a" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edt_a"
+            android:layout_marginTop="20dp"
+            android:text="Số b"
+            android:textSize="20sp"
+            android:layout_marginStart="20dp"/>
+
+        <EditText
+            android:id="@+id/edt_b"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edt_a"
+            android:layout_toEndOf="@id/textView3"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Nhập số b" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/buttons_layout"
+            android:layout_below="@id/edt_b"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/btn_Cong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cornerRadius="0dp"
+                android:text="+" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btn_Tru"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:cornerRadius="0dp"
+                android:text="-" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btn_Nhan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:cornerRadius="0dp"
+                android:text="*" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btn_Chia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:cornerRadius="0dp"
+                android:text="/" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/buttons_layout"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:id="@+id/edt_KQ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:textSize="25dp"
+                android:inputType="text"
+                android:text="" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</FrameLayout>

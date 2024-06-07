@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Bai5_Lab8">
+
+    <Button
+        android:id="@+id/btn_dulieutxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dữ liệu từ TXT"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+    <Button
+        android:id="@+id/btn_dulieujson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dữ liệu từ JSON"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+    <Button
+        android:id="@+id/btn_dulieuxml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dữ liệu từ XML"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tv_storyList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_dulieuxml"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"/>
+
+</LinearLayout>

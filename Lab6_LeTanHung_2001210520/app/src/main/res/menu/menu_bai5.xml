@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuitem_android"
+        android:icon="@drawable/baseline_android_24"
+        android:title="Android"
+        app:showAsAction="withText"
+        tools:ignore="DuplicateIds"/>
+    <item
+        android:id="@+id/menuitem_profile"
+        android:title="Profile"
+        android:icon="@drawable/profile"
+        app:showAsAction="withText"
+        tools:ignore="DuplicateIds"/>
+    <item
+        android:id="@+id/menuitem_dowload"
+        android:title="Dowload"
+        app:showAsAction="withText"
+        android:icon="@drawable/baseline_arrow_downward_24"
+        tools:ignore="DuplicateIds"/>
+    <item
+        android:id="@+id/menuitem_setting"
+        android:title="Setting"
+        app:showAsAction="withText"
+        android:icon="@drawable/baseline_settings_24"
+        tools:ignore="DuplicateIds" />
+    <item
+        android:id="@+id/menuitem_exit"
+        android:title="Exit"
+        app:showAsAction="withText"
+        android:icon="@drawable/exit"
+        tools:ignore="DuplicateIds" />
+</menu>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuitem_share"
+        android:title="Share"
+        android:icon="@drawable/baseline_share_24"
+        app:showAsAction="withText"  >
+        <menu >
+            <item
+                android:id="@+id/menuitem_facebook"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/menuitem_instagram"
+                android:title="Instagram" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@android:drawable/ic_search_category_default"
+        android:title="Search"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="android.widget.SearchView" />
+    <item
+        android:id="@+id/menuitem_setting"
+        android:title="Setting"
+        android:icon="@drawable/baseline_settings_24"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/menuitem_open"
+        android:title="Open"
+        app:showAsAction="withText"
+        android:icon="@drawable/baseline_folder_open_24"/>
+    <item
+        android:id="@+id/menuitem_delete"
+        android:title="Delete"
+        app:showAsAction="withText"
+        android:icon="@drawable/baseline_delete_24"
+        tools:ignore="DuplicateIds" />
+</menu>

@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Bai2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chọn lục địa"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnChauPhi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Châu Phi"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnChauA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Châu Á"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnChauAu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Châu Âu"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnChauMy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Châu Mỹ"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnChauUc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Châu Úc"
+            android:layout_marginBottom="8dp"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewCountries"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

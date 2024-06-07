@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="myHDHs">
+        <item>Android</item>
+        <item>Windows</item>
+        <item>Linux</item>
+        <item>iOS</item>
+        <item>Windows Mobile</item>
+        <item>Ubuntu</item>
+    </string-array>
+</resources>

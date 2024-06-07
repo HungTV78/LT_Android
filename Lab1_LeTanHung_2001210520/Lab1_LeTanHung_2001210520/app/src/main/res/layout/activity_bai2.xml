@@ -1,0 +1,119 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bai2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- LinearLayout 1 -->
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+
+            <!-- TextView màu đỏ (red) -->
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#f00"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:text="RED" />
+
+            <!-- TextView màu cam (orange) -->
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#ffa500"
+                android:textColor="#000"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:text="ORANGE" />
+
+            <!-- TextView màu vàng (yellow) -->
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:background="#ffff00"
+                android:textSize="30dp"
+                android:text="YELLOW"
+                android:layout_alignParentRight="true"/>
+        </LinearLayout>
+
+        <!-- LinearLayout 2 -->
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+
+            <!-- TextView màu xanh lá (green) -->
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#0f0"
+                android:textSize="30dp"
+                android:text="GREEN" />
+
+            <!-- TextView màu xanh dương (blue) -->
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="BLUE"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:background="#00f"
+                android:layout_toLeftOf="@+id/textView14" />
+
+            <!-- TextView màu tím (indigo) -->
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:background="#4b0082"
+                android:text="INDIGO" />
+        </LinearLayout>
+
+        <!-- LinearLayout 3 -->
+        <LinearLayout
+            android:id="@+id/layout3"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+
+            <!-- TextView màu hồng (pink) -->
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#ff69b4"
+                android:text="PINK"
+                android:textSize="30dp"
+                android:gravity="center" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

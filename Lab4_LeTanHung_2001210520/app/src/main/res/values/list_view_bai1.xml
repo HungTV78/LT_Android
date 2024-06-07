@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="myBai1s">
+        <item>Viet Nam</item>
+        <item>United State</item>
+        <item>England</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Laos</item>
+        <item>Singapore</item>
+        <item>Thailand</item>
+    </string-array>
+</resources>

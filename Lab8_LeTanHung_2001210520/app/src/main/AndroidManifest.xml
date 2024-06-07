@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Lab8_LeTanHung_2001210520"
+        tools:targetApi="31">
+        <activity
+            android:name=".Bai6_Lab8"
+            android:exported="false" />
+        <activity
+            android:name=".DSNV"
+            android:exported="false" />
+        <activity
+            android:name=".Bai7_Lab8"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityDetail"
+            android:exported="false" />
+        <activity
+            android:name=".Bai5_Lab8"
+            android:exported="false" />
+        <activity
+            android:name=".Bai4_Lab8"
+            android:exported="false" />
+        <activity
+            android:name=".ReadTxtFile"
+            android:exported="false" />
+        <activity
+            android:name=".Bai3_Lab8"
+            android:exported="false" />
+        <activity
+            android:name=".Bai1_Lab8"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Home_Lab8"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

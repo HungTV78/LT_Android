@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bai8_Lab3">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Bạn :"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
+
+    <ImageView
+        android:id="@+id/playerCard1"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/textView18"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/a0"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:id="@+id/playerCard2"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/textView18"
+        android:layout_toEndOf="@id/playerCard1"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/a0"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:id="@+id/playerCard3"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/textView18"
+        android:layout_toEndOf="@id/playerCard2"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/a0"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Computer :"
+        android:textSize="30dp"
+        android:layout_below="@id/playerCard1"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
+
+    <ImageView
+        android:id="@+id/computerCard1"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/textView19"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/a0"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:id="@+id/computerCard2"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/textView19"
+        android:layout_toEndOf="@id/computerCard1"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/a0"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:id="@+id/computerCard3"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/textView19"
+        android:layout_toEndOf="@id/computerCard2"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/a0"
+        android:scaleType="fitXY"/>
+
+    <Button
+        android:id="@+id/btn_Play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/computerCard3"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:backgroundTint="@color/darkgray"
+        android:layout_marginTop="20dp"
+        android:text="Chơi" />
+
+    <Button
+        android:id="@+id/btnShowHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_Play"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:backgroundTint="@color/darkgray"
+        android:layout_marginTop="20dp"
+        android:text="Lịch Sử" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnShowHistory"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">KTL1_May14_LeTanHung_ST4</string>
+    <string-array name="phones_array">
+        <item>Apple</item>
+        <item>Samsung</item>
+        <item>Xiaomi</item>
+        <item>Vivo</item>
+        <item>Oppo</item>
+        <item>Tất cả</item>
+    </string-array>
+    <string name="all">All</string>
+</resources>

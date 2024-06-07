@@ -1,0 +1,64 @@
+{
+  "phones": [
+    {
+      "name": "iPhone 15 Pro Max",
+      "manufacturer": "Apple",
+      "year": 2023,
+      "price": "30,000,000"
+    },
+    {
+      "name": "iPhone 14",
+      "manufacturer": "Apple",
+      "year": 2022,
+      "price": "25,000,000"
+    },
+    {
+      "name": "Samsung Galaxy S23 Ultra",
+      "manufacturer": "Samsung",
+      "year": 2024,
+      "price": "22,000,000"
+    },
+    {
+      "name": "Samsung Galaxy Z Flip 4",
+      "manufacturer": "Samsung",
+      "year": 2023,
+      "price": "18,000,000"
+    },
+    {
+      "name": "Mi 12 Pro",
+      "manufacturer": "Xiaomi",
+      "year": 2023,
+      "price": "25,000,000"
+    },
+    {
+      "name": "Xiaomi Redmi Note 12",
+      "manufacturer": "Xiaomi",
+      "year": 2024,
+      "price": "10,000,000"
+    },
+    {
+      "name": "Vivo X90",
+      "manufacturer": "Vivo",
+      "year": 2024,
+      "price": "20,000,000"
+    },
+    {
+      "name": "Vivo V25",
+      "manufacturer": "Vivo",
+      "year": 2023,
+      "price": "15,000,000"
+    },
+    {
+      "name": "Oppo Find X5 Pro",
+      "manufacturer": "Oppo",
+      "year": 2023,
+      "price": "28,000,000"
+    },
+    {
+      "name": "Oppo Reno 7",
+      "manufacturer": "Oppo",
+      "year": 2024,
+      "price": "16,000,000"
+    }
+  ]
+}

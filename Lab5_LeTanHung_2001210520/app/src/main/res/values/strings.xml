@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Lab5_LeTanHung_2001210520</string>
+
+    <string-array name="cars_bikes_products">
+        <item>Product 1</item>
+        <item>Product 2</item>
+    </string-array>
+
+    <string-array name="cars_bikes_descriptions">
+        <item>Description 1</item>
+        <item>Description 2</item>
+    </string-array>
+
+    <string-array name="electronics_appliances">
+        <item>electronics_appliances 1</item>
+        <item>electronics_appliances 2</item>
+    </string-array>
+    <string-array name="electronics_appliances_descriptions">
+        <item>electronics Description 1</item>
+        <item>electronics Description 2</item>
+    </string-array>
+
+    <string-array name="mobiles_tablets_products">
+        <item>mobiles 1</item>
+        <item>mobiles 2</item>
+    </string-array>
+    <string-array name="mobiles_tablets_descriptions">
+        <item>mobiles descriptions 1</item>
+        <item>mobiles descriptions 2</item>
+    </string-array>
+
+    <string-array name="real_estate_products">
+        <item>Real Estate 1</item>
+        <item>Real Estate 2</item>
+    </string-array>
+
+    <string-array name="home_lifestyle_products">
+        <item>Real Estate 1</item>
+        <item>Real Estate 2</item>
+    </string-array>
+    <string-array name="jobs_products">
+        <item>Real Estate 1</item>
+        <item>Real Estate 2</item>
+    </string-array>
+    <string-array name="services_products">
+        <item>Real Estate 1</item>
+        <item>Real Estate 2</item>
+    </string-array>
+    <string-array name="entertainment_products">
+        <item>Real Estate 1</item>
+        <item>Real Estate 2</item>
+    </string-array>
+    <string-array name="education_learning">
+        <item>Real Estate 1</item>
+        <item>Real Estate 2</item>
+    </string-array>
+
+
+</resources>
